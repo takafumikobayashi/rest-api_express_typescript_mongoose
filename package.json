@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./dist/app",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.3.5",
+    "@types/node": "^10.12.15",
+    "basic-auth": "^2.0.1",
+    "basic-auth-connect": "^1.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "knex": "^0.16.3",
+    "mongoose": "^5.4.1",
+    "morgan": "~1.9.0",
+    "mssql": "^4.3.0",
+    "pg": "^7.7.1",
+    "sequelize": "^4.42.0",
+    "typeorm": "^0.2.9"
+  }
+}
